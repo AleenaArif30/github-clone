@@ -1,0 +1,37 @@
+*{ box-sizing: border-box; }
+
+
+.lop{ justify-content: flex-end;}
+h2{ color: black; font-weight: bold;}
+.and{ color: gray; font-size: 20px;}
+.window{ max-width: 300px; height: 60px;  background-image: linear-gradient(rgba(0, 0, 0, 0.829), rgb(161, 135, 161));  }
+
+.to{ font-size: 100px;  color: white; font-weight: bold;}
+.bye{font-size: 100px;  color: black; font-weight: bold; margin-left: 80px;}
+p{ color: white; font-size: 30px;}
+.for{ color: white;}
+/* .main{ background-color: black;} */
+.main{ background-image: linear-gradient(rgba(0, 0, 0, 0.829), rgb(37, 34, 37)); ;}
+.for{  background-color: white; color: black;}
+/* .ins{color: white;} */
+/* .center-box{ display: flex; justify-content: center; align-items: center; height: 100vh;} */
+.custom-box{ border: 1px solid white; max-width: 80%; padding: 20px; background-color: black; color: white;}
+.two{  border: 2px solid rgba(255, 228, 196, 0.267) ; max-width: 80%; padding: 20px; background-color: white; color: black;}
+/* .back{ background-image: url("https://c8.alamy.com/comp/2H9D4TT/random-scaled-white-cube-boxes-block-background-wallpaper-banner-3d-illustration-2H9D4TT.jpg"); background-attachment: fixed; background-repeat: no-repeat; background-position: left;} */
+
+.text-body{ text-decoration: none;}
+.p-3{ justify-content: flex-start;}
+.last{ justify-content: flex-end;}
+.dollar{ color: blue;}
+@media only screen and (max-width:600px) {
+    .to{font-size: 40px;  margin-left: auto;}
+    p{ margin-left: 40px; font-size: 20px; margin-top: auto;}
+    .custom-box{margin-left: 40px;}
+    .two{ margin-left: 40px;}
+    .for{ margin-left: 40px;}
+    .bye{font-size: 25px;  margin-left: auto;}
+    .lorem{ margin-left: auto; font-size: 20px; margin-top: auto;}
+    .dollar{ color: blue;}
+    .and{ margin-left: auto;}
+    
+}
